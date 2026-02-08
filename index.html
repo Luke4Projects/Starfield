@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <div id="config_div">
+        <h1>Config</h1>
+
+        <input type="range" id="speedInput">
+        <label>Speed</label>
+    </br>
+        <input type="range" id="amountInput">
+        <label>Amount</label>
+    </br>
+        <input type="range" id="colorInput">
+        <label>Color</label>
+    </br>
+        <input type="range" id="originInput">
+        <label>Origin Distance</label>
+    </br>
+        <input type="range" id="radiusInput">
+        <label>Radius</label>
+    </br>
+        <input type="range" id="rotationInput" value="0">
+        <label>Rotation Speed</label>
+    </br>
+        <input type="range" id="streaksInput" value="0">
+        <label>Streaks</label>
+    </br>
+        <input type="range" id="streaksLengthInput">
+        <label>Streaks Length</label>
+    </br>
+        <input type="checkbox" id="shapeInput">
+        <label>Complex shape</label>
+
+    </div>
+
+    <canvas id="canvas" width="1280" height="720"></canvas>
+
+    <script src="js/main.js"></script>
+    <script src="js/game.js"></script>
+</body>
+</html>
+
+<style>
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+canvas {
+    display: block;
+}
+
+#config_div {
+    position: absolute;
+    color: white;
+    display: block;
+}
+
+</style>
